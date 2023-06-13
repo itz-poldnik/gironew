@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+    
+.wrapper {
+    max-width: 1026px;
+    margin: 0 auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+.main-menu {
+    margin: 10px 0;
+    height: 40px;
+    font-size: 16px;
+    line-height: 41px;
+}
+    
+.main-menu nav {
+    float: right;
+}
+    
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+    
+.main-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+    
+.goy {
+    margin: 45px 45px 0 0;
+    height: 55px;
+}
+.goy .tip {
+    float: left;
+    font-size: 36px;
+}
+.goy .ks {
+    float: right;
+    display: flex;
+}
+.goy .ks a {
+    font-size: 16px;
+    margin: 20px 0 0 0;
+    padding: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+.goy .ks .dav {
+    background-color: orange;
+    border-radius: 25px;
+}
+.brands .content,
+.eeeeee .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brands .yf {
+    font-size: 32px;
+    margin: 45px 0;
+}
+.brands .content div {
+    text-align: center;
+    width: 245px;
+    height: 245px;
+    filter: brightness(80%);
+}
+.brands .content div a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.brands .content div a p {
+    padding-top: 100px;
+    font-weight: 600;
+}
+    /* clockg */
+.eeeeee .content div {
+    margin-top: 20px;
+    width: 232px;
+    height: 420px;
+    text-align: left;
+    font-size: 14pt;
+}
+    
+.eeeeee .content div img {
+    margin-top: 10px;
+}
+.eeeeee .content div p:nth-child(1) {
+    background-color: orange;
+    color: white;
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: 0 10px 10px 0;
+}
+.eeeeee .content div p:nth-child(3) {
+    margin-bottom: 10px;
+}
+.eeeeee .content div p:nth-child(4) {
+    font-weight: 700;
+    font-size: 20px;
+}
+    /* contactso */
+.contacts .es {
+    font-size: 18px;
+}
+.contacts .allo {
+    text-align: left;
+    text-transform: none;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 40px;
+}
+    
+.kon {
+    display: flex;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #787676;
+}
+.fly p {
+    margin-bottom: 10px;
+    width: 388px;
+    height: 74px;
+}
+.set {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.set p {
+    width: 160px;
+}
+.set p:nth-child(1) {
+    color: black;
+}
+.set p:nth-child(2) {
+    color: black;
+}
+.set p:nth-child(3) {
+    color: black;
+}
